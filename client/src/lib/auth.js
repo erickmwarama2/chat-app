@@ -1,7 +1,7 @@
 import { jwtDecode } from 'jwt-decode';
 
 const ACCESS_TOKEN_KEY = 'accessToken';
-const API_URL = 'http://localhost:9000';
+const API_URL = 'http://192.168.100.2:9000';
 
 export function getAccessToken() {
   return localStorage.getItem(ACCESS_TOKEN_KEY);
